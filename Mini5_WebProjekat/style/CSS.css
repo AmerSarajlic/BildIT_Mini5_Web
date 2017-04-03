@@ -1,0 +1,255 @@
+
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2012/12/08/24017/94607145c1e2a7a382a882aa5592835a.jpg");
+  color: #777;
+  background-size: 1600px 1400px;
+  background-repeat: repeat-y;
+  }
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h2
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #1C2C3E;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% arial, sans-serif;
+  color: #29415D;
+  font-weight: bold}
+
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  padding: 0 0 15px 0;
+  color: #000;}
+
+h6
+{ color: #362C20;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #1293EE;}
+
+a:hover
+{ text-decoration: none;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: #4682B4;
+  height: 110px;
+  width: 1600px;
+  z-index: 100;
+  position: fixed;}
+
+#logo
+{ width: 825px;
+  position: relative;
+  height: 90px;
+  background: #4682B4;}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: -10px;
+  left: 0;}
+
+#logo h1, #logo h2
+{ font: normal 450% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 22px 0 0 0;
+  color: #00008B;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  font-weight: bold}
+
+#logo_text h1 a .logo_colour
+{ color: #FF4500;}
+
+#menubar
+{ width: 1000px;
+  height: 40px;
+  padding: 0;
+  border: solid 2px #00008B;
+  background: #29415D;
+  margin-left: 270px;
+  } 
+
+ul#menu, ul#menu li
+{ 
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 10px;
+  padding: 15px 76px 15px 47px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  font-weight: bold;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: orangered;
+  background: #1C2C3E }
+
+#site_content
+{ width: 880px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 40px 24px 10px 37px;
+  background: #FFF; 
+  position: relative;
+  margin-left: 300px;} 
+
+.sidebar
+{ float: right;
+  width: 190px;
+  padding: 100px 15px 20px 15px;}
+
+.sidebar ul
+{ width: 178px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 7px 0; }
+
+.sidebar li a, .sidebar li a:hover
+{ padding: 0 0 0 0px;
+  display: block;
+  background: transparent left center;} 
+
+.sidebar li a.selected
+{ color: #444;
+  text-decoration: none;} 
+
+#content
+{ text-align: justify;
+  color: #000033;
+  width: 595px;
+  margin-top: 100px;
+  padding: 0;
+  }
+
+#content h1
+{ color: #00008B;
+font-weight: bold;}
+
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li
+{ list-style-type: none;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+#footer
+{ width: 1000px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 20px;
+  padding: 17px 0 5px 0;
+  text-align: center; 
+  background: #29425E;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: absolute;
+  margin-left: 266px;
+  
+  }
+  
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;}
+  
+#table{  
+  width: 100%;
+  border-spacing: 2px;
+ 
+}
+
+#table tr th
+{ background: #29415D;
+  color: #F0EFE2;
+  border-top: 1px solid #FFF;
+  }
+
+#table tr td
+{ background: #F0EFE2;
+  color: darkblue;
+  border-top: 1px solid #FFF;
+  }
+
+  #picture{
+    padding: 30px 30px 0px 30px;
+  }
+  #under_pic{
+    text-align: center;
+  }
